@@ -1,27 +1,53 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import logo from '../assets/images/logo.png';
 
 function Header() {
   return (
     <header className="header">
-      <h1>JP Corwyn</h1>
-      <p>Artist & Writer</p>
+      
+      {/* Logo Centered in Flex */}
+      <div className="header-space">
+        <img
+          src={logo}
+          className="logoheader"
+          loading="lazy"
+          alt="The Author"
+          width="180"
+        />
+      </div>
+
+      {/* Navigation - Left */}
       <nav className="nav">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Cycle of Bones</a></li>
-           <li><a href="#support">Support</a></li>
-           <li><a href="#socialmedia">Social Media</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/books">Writing</Link></li>
+          <li><Link to="/music">Music</Link></li>
+          <li><Link to="/support">Latest News</Link></li>
+          <li><Link to="/bio">About</Link></li>
+          <li><Link to="/buy">Buy Now</Link></li>
         </ul>
       </nav>
 
-      <div className="social-icons">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            </div>
+        <div className="social-icons">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        </div>
+  
+
+
+
+      {/* Spotify and Social - Right */}
+      <div className="headerCTA">
+        <div className="cta-button">
+          <a href="/support" className="join-cadre-btn">
+            ⚔️ Join Corwyn's Cadre
+          </a>
+        </div>
+      </div>
     </header>
   );
 }

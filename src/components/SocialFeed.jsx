@@ -15,7 +15,7 @@ function SocialFeed() {
 
   return (
     <section className="social-feed" id="socialmedia">
-      <h2>Follow Me on Social Media: Note tik tok isn't an account but a filler as i do not know jp's account.</h2>
+      <h2>Follow Me on Social Media: </h2>
       {loaded && (
         <div className="social-widgets" style={{ display: 'flex', gap: '1rem' }}>
           <iframe

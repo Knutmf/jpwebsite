@@ -15,6 +15,14 @@ function Footer() {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
       </div>
+
+      
+        <div className="Footer-contact">
+          <a href="/bio#contact" className="footer-link">Contact</a>
+          <a href="/Publisher" className="footer-link">Publisher</a>
+        </div>
+        
+
     </footer>
   );
 }
