@@ -5,7 +5,7 @@ export default function DawnOfUnions() {
     <section className="DawnofUnions banner-section">
       <div className="banner-content">
         <div className="banner-row">
-          <img
+          <img 
             src={bookslideone}
             loading="lazy"
             alt="Dawn of Unions"
@@ -13,7 +13,7 @@ export default function DawnOfUnions() {
           />
           <div className="text-content">
             <h2 className="banner-title">Book 1: Dawn of Unions</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <p>Kaith and his armsmen must fight a demonic army to save their besieged village and its cursed survivors. Can Kaith prevent darkness from claiming anyone left standing?</p>
             <a
               className="buy-button"
               href="https://www.amazon.com/example-affiliate-link"

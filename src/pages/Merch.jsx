@@ -1,13 +1,14 @@
 import Header from '../components/Header';  
 import Footer from '../components/Footer';  
+import MerchComponent from '../components/MerchComponent';
 import BackToTopButton from '../components/BackToTopButton';
-import MusicPage from '../components/MusicPage';
 
-export default function Music() {
+
+export default function Merch() {
   return (
     <>
       <Header /> 
-      <MusicPage />
+      <MerchComponent />
       <BackToTopButton />
       <Footer />
     </>

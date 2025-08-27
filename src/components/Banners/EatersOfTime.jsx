@@ -15,8 +15,7 @@ export default function EatersOfTime() {
           <div className="text-content">
             <h2 className="banner-title">Book 3: Eaters of Time</h2>
             <p>
-              A cosmic odyssey through realms unknown, <em>Eaters of Time</em> blends philosophical musings
-              with a fast-paced narrative.
+              A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?
             </p>
 
             <a

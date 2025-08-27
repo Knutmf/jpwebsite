@@ -1,13 +1,14 @@
 import Header from '../components/Header';  
 import Footer from '../components/Footer';  
+import LatestNewsComponent from '../components/LatestNewsComponent';
 import BackToTopButton from '../components/BackToTopButton';
-import MusicPage from '../components/MusicPage';
 
-export default function Music() {
+
+export default function LatestNews() {
   return (
     <>
       <Header /> 
-      <MusicPage />
+      <LatestNewsComponent />
       <BackToTopButton />
       <Footer />
     </>

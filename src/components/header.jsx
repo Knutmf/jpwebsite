@@ -9,6 +9,7 @@ function Header() {
       
       {/* Logo Centered in Flex */}
       <div className="header-space">
+        <Link to="/">
         <img
           src={logo}
           className="logoheader"
@@ -16,6 +17,7 @@ function Header() {
           alt="The Author"
           width="180"
         />
+        </Link>
       </div>
 
       {/* Navigation - Left */}
@@ -24,9 +26,10 @@ function Header() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/books">Writing</Link></li>
           <li><Link to="/music">Music</Link></li>
-          <li><Link to="/support">Latest News</Link></li>
+          <li><Link to="/latest">Latest News</Link></li>
           <li><Link to="/bio">About</Link></li>
-          <li><Link to="/buy">Buy Now</Link></li>
+          <li><Link to="/buy">Read Now</Link></li>
+          <li><Link to="/merch">Merch</Link></li>
         </ul>
       </nav>
 

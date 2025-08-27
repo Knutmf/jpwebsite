@@ -13,7 +13,7 @@ export default function DrumsOfUnrest() {
         <div className="text-content">
           <h2 className="banner-title">Book 2: Drums of Unrest</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            As Skolf faces an unearthly siege, the King of the Dead draws ever closer with his agents to tear Skolf asunder. Follow Kaith, Eobum and other heroes as they battle the inner phantoms that haunt them in this gritty dark military fantasy. 
           </p>
   
            <a

@@ -3,22 +3,18 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';  
 import '../styles.css';
 import img1 from '../assets/images/img1.jpg';
-import img2 from '../assets/images/img2.jpeg';
-import img3 from '../assets/images/img3.jpg';
 import BackToTopButton from '../components/BackToTopButton';
 
 export default function MainContent() {
     // Refs for each section
       const ref1 = useRef();
-      const ref2 = useRef();
-      const ref3 = useRef();
-      const ref4 = useRef();
+    
+      
     
       // Visibility state for each section
       const [visible1, setVisible1] = useState(false);
-      const [visible2, setVisible2] = useState(false);
-      const [visible3, setVisible3] = useState(false);
-      const [visible4, setVisible4] = useState(false);
+      
+      
     
       useEffect(() => {
       const observer = new IntersectionObserver(
@@ -27,9 +23,8 @@ export default function MainContent() {
             const el = entry.target;
             if (entry.isIntersecting) {
               if (el === ref1.current) setVisible1(true);
-              if (el === ref2.current) setVisible2(true);
-              if (el === ref3.current) setVisible3(true);
-              if (el === ref4.current) setVisible4(true);
+             
+              
             }
           });
         },
@@ -39,9 +34,8 @@ export default function MainContent() {
       );
     
       if (ref1.current) observer.observe(ref1.current);
-      if (ref2.current) observer.observe(ref2.current);
-      if (ref3.current) observer.observe(ref3.current);
-      if (ref4.current) observer.observe(ref4.current);
+      
+      
     
       return () => observer.disconnect();
     }, []);
@@ -66,79 +60,23 @@ export default function MainContent() {
                      alt="The Man" 
                      width="300"
                      loading="lazy"  />
-                  <p>
-                    Legally blind since birth; JP Corwyn considers himself once and Always a New Yorker, (born out on Long Island) though he spent several post-high school years in Washington, DC. He now makes his home in Tampa, Florida. Corwyn&#39;s spent much of 2019 abroad. 
-                    After a few months in beautiful South Korea; Corwyn is currently in England finishing the next book in his series. 
-                    Well travelled and well versed, Corwyn brings his life experience and passions into both his fantasy novels and his emotive music.
-                  </p>
+                  <p className='biocontent'>
+                    I tell stories. Whether through words or through lyrics, I love weaving and twisting tales. The Cycle of Bones (my dark military fantasy series) grew out of a love for big, lived-in worlds where choices matter and characters don’t get to walk away unchanged. <br />
+                   </p> 
+                   
+                   <p className='biocontent'>My music (some call it folk alternative rock, but I like to call it blind indie rock) chases the same truths, just in a different language. However it comes out, my goal is always the same: to make something that connects with my audience and hopefully, stays a while. 🙂</p>
+
+                   <p className='biocontent'> Look…I was born legally blind. (<i>See</i> what I did there?) It’s never been the only thing about me, but it’s shaped the way I create. I learned early on to listen closer, to imagine harder, and to trust the details other people missed–even when I was a teen sneaking out at night to play Dungeons and Dragons with friends or taking care of horses. Being blind never stopped me from creating; it just means I need a seeing-eye human every now and then. (Speaking of, thanks to my team for helping with this website!)</p>
+
+                   <p className='biocontent'> Over the years I’ve worked with gold- and multi-platinum producers, put books into readers’ hands around the world, and shared stages, pages, and conversations I never expected. The tools change—pen, guitar, voice—but it all comes back to storytelling. </p>
+                    
+                   <p className='biocontent'>So, if something here sparks your imagination, stick around. Drop me a note, or sign up for the newsletter. I’d be glad to keep the conversation going.</p>
+                  
               </div> 
           </section>
     <div className="full-line"></div>
     
-          <section  
-            ref={ref2}
-            className={`bio ${visible2 ? 'visible' : 'hidden-right'}`}>
-              
-              <h2>The Musician</h2>
-              
-               <div className="bio-content">
-                <img src={img2} 
-                     loading="lazy" 
-                     alt="The Musician" 
-                     width="300" />
-                    <p>
-                        Almost able to sing before he could talk, JP has always had a deep connection with everything musical. 
-                        On vocals and acoustic guitar, Corwyn has helmed an EP and two full length albums to date, seeing him team up with gold-winning engineer and producer, David Pezza, and multi-platinum producer, Micheal Seifert.
-                    </p>
-                </div>
-
-                
-          </section>
-
-          <div className="full-line"></div>
-    
-          <section 
-            ref={ref3}
-            className={`bio ${visible3 ? 'visible' : 'hidden-left'}`}>
-            
-              <h2>The Author</h2>
-    
-               <div className="bio-content">
-                <img src={img3}
-                     loading="lazy" 
-                     alt="The Author" 
-                     width="300" />
-                    <p>
-                        A lifelong love affair with literature, fantasy, and fiction; it was inevitable that JP Corwyn would use his talents for story telling to create a world of his own. 
-                        His new fantasy series, starting with the Cycle of Bones, are bold, brave, and immersive. Discover the world of Skolf, available on Amazon November, 2019
-                    </p>
-                    </div>
-
-                    
-          </section>
-
-          <div className="full-line"></div>
-    
-          <section 
-            ref={ref4}
-            className={`bio ${visible4 ? 'visible' : 'hidden-right'}`}>
-            
-            <h2>Many Other talents</h2>
-    
-            <div className="bio-content">
-                <p>
-                    Aside from his primary passions as a musician and novelist, J.P. has a number of other talents you might be interested in.
-                </p>
-            <ul>
-              <li>🎨 <strong>Composer</strong> – Composes things </li>
-              <li>🖋 <strong>The voice</strong> – Voices things</li>
-              <li>🎨 <strong>Side projects</strong> – Sides things</li>
-            </ul>
-           </div>
           
-          </section>
-
-          <div className="full-line"></div>
     </main>
 
 

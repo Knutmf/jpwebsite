@@ -36,6 +36,8 @@ function Home() {
         </h1>
       </section>
 
+    <div className="gradient-border"></div>
+
       {/* Latest Releases Section */}
       <section className="latest-releases">
         <h2>Latest Releases</h2>
@@ -51,6 +53,9 @@ function Home() {
         </div>
       </section>
 
+<div className="gradientborder"></div>
+
+
       {/* Explore the Book Series Section */}
 <section className="book-series">
   <h2>Explore the Book Series</h2>
@@ -61,17 +66,17 @@ function Home() {
     <div className="book-card">
       <img src={Bookslideone} alt="Dawn of Unions book cover" />
       <h3>Dawn of Unions</h3>
-      <p>A brief teaser or synopsis about Book One. Compelling and mysterious to spark interest.</p>
+      <p>Kaith and his armsmen must fight a demonic army to save their besieged village and its cursed survivors. Can Kaith prevent darkness from claiming anyone left standing?</p>
     </div>
     <div className="book-card">
       <img src={Bookslidetwo} alt="Drums of Unrest book cover" />
       <h3>Drums of Unrest</h3>
-      <p>A brief teaser or synopsis about Book Two. Focus on what makes this story stand out.</p>
+      <p>As Skolf faces an unearthly siege, the King of the Dead draws ever closer with his agents to tear Skolf asunder. Follow Kaith, Eobum and other heroes as they battle the inner phantoms that haunt them in this gritty dark military fantasy. </p>
     </div>
     <div className="book-card">
       <img src={Bookslidethree} alt="Eaters of Time book cover" />
       <h3>Eaters of Time</h3>
-      <p>A brief teaser or synopsis about Book Three. Hint at themes or characters without spoilers.</p>
+      <p>A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?</p>
     </div>
   </div>
 </section>
