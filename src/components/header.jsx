@@ -1,27 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaTwitch, FaBars } from 'react-icons/fa';
 import logo from '../assets/images/logo.png';
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
-      
-      {/* Logo Centered in Flex */}
+      {/* Hamburger button */}
+      <div className="nav-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        <FaBars />
+      </div>
+
+      {/* Logo Centered */}
       <div className="header-space">
         <Link to="/">
-        <img
-          src={logo}
-          className="logoheader"
-          loading="lazy"
-          alt="The Author"
-          width="180"
-        />
+          <img src={logo} className="logoheader" loading="lazy" alt="The Author" width="180" />
         </Link>
       </div>
 
-      {/* Navigation - Left */}
-      <nav className="nav">
+      {/* Navigation - toggled with menuOpen */}
+      <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/books">Writing</Link></li>
@@ -33,22 +33,17 @@ function Header() {
         </ul>
       </nav>
 
-        <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        </div>
-  
+      {/* Social + CTA */}
+      <div className="social-icons">
+        <a href="https://www.facebook.com/JPCorwynOfficial" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="https://x.com/JPCorwyn" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://www.instagram.com/jpcorwyn/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a href="https://www.twitch.tv/jp_corwyn" target="_blank" rel="noopener noreferrer"><FaTwitch /></a>
+      </div>
 
-
-
-      {/* Spotify and Social - Right */}
       <div className="headerCTA">
         <div className="cta-button">
-          <a href="/support" className="join-cadre-btn">
-            ⚔️ Join Corwyn's Cadre
-          </a>
+          <a href="/support" className="join-cadre-btn">⚔️ Join Corwyn's Cadre</a>
         </div>
       </div>
     </header>

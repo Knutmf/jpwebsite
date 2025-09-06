@@ -60,17 +60,19 @@ export default function MainContent() {
                      alt="The Man" 
                      width="300"
                      loading="lazy"  />
-                  <p className='biocontent'>
-                    I tell stories. Whether through words or through lyrics, I love weaving and twisting tales. The Cycle of Bones (my dark military fantasy series) grew out of a love for big, lived-in worlds where choices matter and characters don’t get to walk away unchanged. <br />
-                   </p> 
-                   
-                   <p className='biocontent'>My music (some call it folk alternative rock, but I like to call it blind indie rock) chases the same truths, just in a different language. However it comes out, my goal is always the same: to make something that connects with my audience and hopefully, stays a while. 🙂</p>
-
-                   <p className='biocontent'> Look…I was born legally blind. (<i>See</i> what I did there?) It’s never been the only thing about me, but it’s shaped the way I create. I learned early on to listen closer, to imagine harder, and to trust the details other people missed–even when I was a teen sneaking out at night to play Dungeons and Dragons with friends or taking care of horses. Being blind never stopped me from creating; it just means I need a seeing-eye human every now and then. (Speaking of, thanks to my team for helping with this website!)</p>
-
-                   <p className='biocontent'> Over the years I’ve worked with gold- and multi-platinum producers, put books into readers’ hands around the world, and shared stages, pages, and conversations I never expected. The tools change—pen, guitar, voice—but it all comes back to storytelling. </p>
+                   <div className="bio-text">
+                    <p>
+                      I tell stories. Whether through words or through lyrics, I love weaving and twisting tales. The Cycle of Bones (my dark military fantasy series) grew out of a love for big, lived-in worlds where choices matter and characters don’t get to walk away unchanged. <br />
+                    </p> 
                     
-                   <p className='biocontent'>So, if something here sparks your imagination, stick around. Drop me a note, or sign up for the newsletter. I’d be glad to keep the conversation going.</p>
+                    <p>My music (some call it folk alternative rock, but I like to call it blind indie rock) chases the same truths, just in a different language. However it comes out, my goal is always the same: to make something that connects with my audience and hopefully, stays a while. 🙂</p>
+
+                    <p>Look…I was born legally blind. (<i>See</i> what I did there?) It’s never been the only thing about me, but it’s shaped the way I create. I learned early on to listen closer, to imagine harder, and to trust the details other people missed–even when I was a teen sneaking out at night to play Dungeons and Dragons with friends or taking care of horses. Being blind never stopped me from creating; it just means I need a seeing-eye human every now and then. (Speaking of, thanks to my team for helping with this website!)</p>
+
+                    <p>Over the years I’ve worked with gold- and multi-platinum producers, put books into readers’ hands around the world, and shared stages, pages, and conversations I never expected. The tools change—pen, guitar, voice—but it all comes back to storytelling.</p>
+                    
+                    <p>So, if something here sparks your imagination, stick around. Drop me a note, or sign up for the newsletter. I’d be glad to keep the conversation going.</p>
+                  </div>
                   
               </div> 
           </section>

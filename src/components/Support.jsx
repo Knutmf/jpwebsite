@@ -1,5 +1,5 @@
 import { FaPatreon, FaDiscord } from 'react-icons/fa';
-import { SiKofi, SiTeespring, SiBandcamp } from 'react-icons/si';
+import { SiKofi, SiTeespring, SiSpotify } from 'react-icons/si';
 import '../styles.css';
 
 export default function Support() {
@@ -42,7 +42,7 @@ export default function Support() {
           <h3>Official Merch</h3>
           <p>Wear the world of Skolf. Check out exclusive shirts, posters, and more!</p>
           <a
-            href="https://teespring.com/store/your-merch-name"
+            href="https://jp-corwyn.creator-spring.com/?utm_medium=referral&utm_source=twitch_integration&utm_campaign=jp-corwyn"
             target="_blank"
             rel="noopener noreferrer"
             className="merch-btn"
@@ -54,22 +54,22 @@ export default function Support() {
 
         <div className="full-line"></div>
 
-        {/* Bandcamp */}
-        <div className="music-promo section-block">
-          <h3>Buy Music on Bandcamp</h3>
-          <p>
-            Prefer direct downloads? Support me on Bandcamp where you can purchase albums and singles.
-          </p>
-          <a
-            href="https://yourbandcampurl.bandcamp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bandcamp-btn"
-          >
-            <SiBandcamp style={{ marginRight: '8px' }} />
-            Visit Bandcamp
-          </a>
-        </div>
+        {/* Spotify */}
+          <div className="music-promo section-block">
+            <h3>Listen on Spotify</h3>
+            <p>
+              Stream my music on Spotify and follow me to stay updated on new releases and playlists.
+            </p>
+            <a
+              href="https://open.spotify.com/artist/5mPO25ibQzW96LaS6DmufE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="spotify-btn"
+            >
+              <SiSpotify style={{ marginRight: '8px' }} />
+              Listen on Spotify
+            </a>
+          </div>
 
         <div className="full-line"></div>
 

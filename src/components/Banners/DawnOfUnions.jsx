@@ -1,41 +1,44 @@
 import bookslideone from '../../assets/images/bookslide1.png';
+import { Link } from "react-router-dom";
 
 export default function DawnOfUnions() {
   return (
     <section className="DawnofUnions banner-section">
       <div className="banner-content">
         <div className="banner-row">
-          <img 
-            src={bookslideone}
-            loading="lazy"
-            alt="Dawn of Unions"
-            className="banner-image"
-          />
+          
+          <div className="image-column">
+            <img 
+              src={bookslideone}
+              loading="lazy"
+              alt="Dawn of Unions"
+              className="banner-image"
+            />
+            <div className="spotify-embed">
+              <iframe
+                style={{ borderRadius: '12px' }}
+                src="https://open.spotify.com/embed/album/6QBCPuRAzMVtto7mIo2KwA?utm_source=generator"
+                width="300"
+                height="80"
+                frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                title="Spotify Player"
+              ></iframe>
+            </div>
+          </div>
+
+        
           <div className="text-content">
             <h2 className="banner-title">Book 1: Dawn of Unions</h2>
-            <p>Kaith and his armsmen must fight a demonic army to save their besieged village and its cursed survivors. Can Kaith prevent darkness from claiming anyone left standing?</p>
-            <a
-              className="buy-button"
-              href="https://www.amazon.com/example-affiliate-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Buy on Amazon
-            </a>
+            <p>
+              Kaith and his armsmen must fight a demonic army to save their besieged village 
+              and its cursed survivors. Can Kaith prevent darkness from claiming anyone left standing?
+            </p>
+            <Link to="/buy" className="buy-button">
+              Find Out More
+            </Link>
           </div>
-        </div>
-
-        <div className="spotify-embed">
-          <iframe
-            style={{ borderRadius: '12px' }}
-            src="https://open.spotify.com/embed/album/6QBCPuRAzMVtto7mIo2KwA?utm_source=generator"
-            width="300"
-            height="80"
-            frameBorder="0"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-            title="Spotify Player"
-          ></iframe>
         </div>
       </div>
     </section>
