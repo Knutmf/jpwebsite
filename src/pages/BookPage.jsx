@@ -1,4 +1,4 @@
-import '../styles.css'; // Adjust if needed
+import { Helmet } from '@vuer-ai/react-helmet-async';
 import bookCover from '../assets/images/bookslide1.png'; 
 import bookCover2 from '../assets/images/bookslide2.png';
 import bookCover3 from '../assets/images/bookslide3.png';
@@ -20,8 +20,33 @@ export default function BookPage({ bookId }) {
   
   return (
     <>
-    <Header />
+       <Helmet>
+        <title>Dawn of Unions | JP Corwyn</title>
+        
+        {/* Meta description */}
+        <meta
+          name="description"
+          content="Dawn of Unions is a dark fantasy prequel novella in the Cycle of Bones series by JP Corwyn. Survival, sacrifice, and brutal choices in a cursed village filled with demonic horrors and realistic battles."
+        />
 
+        {/* Meta keywords */}
+        <meta
+          name="keywords"
+          content="Cycle of Bones, dark fantasy, military fantasy, horror fantasy, gritty fantasy, prequel novella, fantasy series, epic saga, unlikely hero, survival against impossible odds, cursed village, demonic horrors, realistic battles, grimdark fantasy, survival, sacrifice, brutal choices"
+        />
+
+        {/* Open Graph / Social Sharing */}
+        <meta property="og:title" content="Dawn of Unions by JP Corwyn" />
+        <meta
+          property="og:description"
+          content="A grimdark fantasy novella in the Cycle of Bones series. Dark fantasy, demonic horrors, survival, and brutal choices."
+        />
+        <meta property="og:image" content="../assets/images/bookslide1.png" />
+      </Helmet>
+
+
+
+    <Header />
     <main className="book-page">
 
       {/* Book Details Section */}
@@ -41,9 +66,16 @@ export default function BookPage({ bookId }) {
   <div className="book-info">
     <h2 className="book-title">Cycle of Bones – Dawn of Unions</h2>
     <p className="book-description">
-     Kaith knows he’s been luckier than most. Born to a blacksmith, he’s grateful that hard work and good fortune have granted him a position as a man–at–arms in the Countess’s service. But when he accompanies her entourage to a joyful annual festival, the young man is shocked to find the village besieged, the people cursed, and Her Excellency’s knights slaughtered.
-     Forced to shelter in the now–helpless town, Kaith and his fellow armsmen are charged with repelling the demonic enemy. But when the force that returns is an army of familiar faces twisted with lifeless malice, he fears his tiny contingent will soon join their ranks. Facing rampant terror with little hope, can Kaith prevent darkness from claiming anyone left standing?
-     The Dawn of Unions is the first book in the sweeping Cycle of Bones, a dark military fantasy series. If you enjoy unlikely heroes, realistic battles, and fighting for survival, then you’ll love JP Corwyn’s gritty novella.
+    Kaith knows he’s been luckier than most. Born to a blacksmith, he’s grateful that hard work and fortune earned him a position as a man-at-arms in the Countess’s service. But when he accompanies her entourage to a joyful annual festival, the young soldier is shocked to find the village besieged, its people cursed, and Her Excellency’s knights slaughtered.<br /><br />
+
+     Trapped inside the helpless town, Kaith and his fellow armsmen must stand against a terrifying enemy. But when the force that rises against them is an army of familiar faces—friends and kin twisted into lifeless horrors—he fears his small contingent will soon join their ranks. Facing rampant terror with little hope, can Kaith prevent darkness from claiming anyone left standing?<br />
+     The Dawn of Unions is the first book and novella to the Cycle of Bones, a dark military fantasy series.<br /><br />
+
+     If you like…<br />
+     - Unlikely heroes standing against impossible odds<br />
+     - Realistic battles where every decision counts<br />
+     - A dark fantasy survival story against demonic horrors
+
 
     </p>
 

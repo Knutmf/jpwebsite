@@ -1,4 +1,3 @@
-import '../styles.css'; // Adjust if needed
 import bookCover from '../assets/images/bookslide1.png'; 
 import bookCover2 from '../assets/images/bookslide2.png';
 import bookCover3 from '../assets/images/bookslide3.png';
@@ -7,6 +6,7 @@ import { useEffect } from 'react';
 import Header from '../components/Header';  
 import Footer from '../components/Footer'; 
 import BackToTopButton from '../components/BackToTopButton';
+import { Helmet } from "@vuer-ai/react-helmet-async";
 
 export default function EatersBookPage() {
   const location = useLocation();
@@ -21,6 +21,31 @@ export default function EatersBookPage() {
 
   return (
     <>
+      <Helmet>
+            <title>Eaters of Time | JP Corwyn</title>
+            
+            {/* Meta description */}
+            <meta
+              name="description"
+              content="Eaters of Time is a dark fantasy novell in the Cycle of Bones series by JP Corwyn. A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?"
+            />
+    
+            {/* Meta keywords */}
+            <meta
+              name="keywords"
+              content="Cycle of Bones, dark fantasy, military fantasy, horror fantasy, gritty fantasy, second novell, fantasy series, epic saga, cursed fate, resilience in the face of darkness, relentless siege, haunted lands, realistic battles, grimdark fantasy, unearthly terror, doomed defenders, gritty combat, brotherhood of arms, tactical survival, immersive worldbuilding"
+            />
+    
+            {/* Open Graph / Social Sharing */}
+            <meta property="og:title" content="Eaters of Time by JP Corwyn" />
+            <meta
+              property="og:description"
+              content="A grimdark fantasy novella in the Cycle of Bones series. A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?"
+            />
+            <meta property="og:image" content="../assets/images/bookslide3.png" />
+      </Helmet>
+      <Header />
+
       <Header />
 
       <main className="book-page">
@@ -41,10 +66,10 @@ export default function EatersBookPage() {
           <div className="book-info">
             <h2 className="book-title">Cycle of Bones – Eaters of Time</h2>
             <p className="book-description">
-              In the north<br />
+              In the north<br /><br />
               When an unknown enemy army appears as if by magic near the count’s encampment, Lady Kastan must outthink, outrun, and outfight their vanguard. After witnessing strange sorcery that hints at a monstrous secret, she knows death is on the wind. Can she warn the nearby encampment in time?
-              To rescue her kidnapped son, Lashjuk sneaks behind enemy lines. New to the way of the spear, and wielding a power she’s just beginning to understand, she’ll be forced to play a deadly game of cat and mouse if she has any hope of bringing her boy home.<br />
-              In the south<br />
+              To rescue her kidnapped son, Lashjuk sneaks behind enemy lines. New to the way of the spear, and wielding a power she’s just beginning to understand, she’ll be forced to play a deadly game of cat and mouse if she has any hope of bringing her boy home.<br /><br />
+              In the south<br /><br />
               As cradle-tale monsters attack northern Thorion, the newly minted Sir Kaith’s courage and skill as a leader will be pushed to the limit. Can the young knight ward off the attackers, counter their cunning, and save the settlement before it’s too late?
               Meanwhile, alone and unsupported, Sir Jastar begins the delicate and dangerous work of infiltrating the once-haunted lands north of Thorion. Unprepared for both who and what he finds, the enormity of his task begins to overwhelm him. Can Jast unearth the secrets of this land’s power in time to save the Thorion Throne?
 

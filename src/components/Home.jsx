@@ -47,10 +47,7 @@ function Home() {
           <img src={Bookslidethree} alt="Eaters of Time book cover" />
           <h3>Eaters of Time</h3>
           <p>
-            A land now divided by war, where ancient sorcery and monstrous
-            threats lurk ever closer. Sir Kaith and three other heroes rise to
-            protect the world, but can they truly outwit the darkness and save
-            Skolf?
+            A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?
           </p>
         </Link>
         
@@ -90,10 +87,7 @@ function Home() {
             <img src={Bookslidetwo} alt="Drums of Unrest book cover" />
             <h3>Drums of Unrest</h3>
             <p>
-              As Skolf faces an unearthly siege, the King of the Dead draws ever closer
-              with his agents to tear Skolf asunder. Follow Kaith, Eobum and other
-              heroes as they battle the inner phantoms that haunt them in this gritty
-              dark military fantasy.
+              As Skolf faces an unearthly siege, the King of the Dead draws ever closer with his agents to tear Skolf asunder. Follow Kaith, Eobum and other heroes as they battle the inner phantoms that haunt them in this gritty dark military fantasy. 
             </p>
           </Link>
 
@@ -101,9 +95,7 @@ function Home() {
             <img src={Bookslidethree} alt="Eaters of Time book cover" />
             <h3>Eaters of Time</h3>
             <p>
-              A land now divided by war, where ancient sorcery and monstrous threats
-              lurk ever closer. Sir Kaith and three other heroes rise to protect the
-              world, but can they truly outwit the darkness and save Skolf?
+              A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?
             </p>
           </Link>
         </div>

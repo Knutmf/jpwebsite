@@ -62,16 +62,30 @@ export default function MainContent() {
                      loading="lazy"  />
                    <div className="bio-text">
                     <p>
-                      I tell stories. Whether through words or through lyrics, I love weaving and twisting tales. The Cycle of Bones (my dark military fantasy series) grew out of a love for big, lived-in worlds where choices matter and characters don’t get to walk away unchanged. <br />
-                    </p> 
-                    
-                    <p>My music (some call it folk alternative rock, but I like to call it blind indie rock) chases the same truths, just in a different language. However it comes out, my goal is always the same: to make something that connects with my audience and hopefully, stays a while. 🙂</p>
+                      Heya! I’m JP. Good to meet you.<br /><br />
 
-                    <p>Look…I was born legally blind. (<i>See</i> what I did there?) It’s never been the only thing about me, but it’s shaped the way I create. I learned early on to listen closer, to imagine harder, and to trust the details other people missed–even when I was a teen sneaking out at night to play Dungeons and Dragons with friends or taking care of horses. Being blind never stopped me from creating; it just means I need a seeing-eye human every now and then. (Speaking of, thanks to my team for helping with this website!)</p>
 
-                    <p>Over the years I’ve worked with gold- and multi-platinum producers, put books into readers’ hands around the world, and shared stages, pages, and conversations I never expected. The tools change—pen, guitar, voice—but it all comes back to storytelling.</p>
-                    
-                    <p>So, if something here sparks your imagination, stick around. Drop me a note, or sign up for the newsletter. I’d be glad to keep the conversation going.</p>
+                      Now, I know this is the bio section, and you’re probably expecting something self-important and grand. Good news! Other people have, indeed, written that way about me! So let’s all put our pinkies in the air, put on our “oh-so-sophisticated” expressions, and read the official bio section, shall we?<br /><br />
+
+                      (Cue the third-person voiceover…)<br /><br />
+
+                      JP Corwyn is a seasoned indie fantasy author and alternative rock musician whose work spans continents and cultures, generations and genres. Legally blind since birth, as Corwyn’s vision loss increased, his reputation for honest, powerful vocals and boundless imagination grew. Known for his dark fantasy series The Cycle of Bones, his evocative unplugged and rock performances, and his lively panel appearances, Corwyn continues captivating audiences and readers alike.<br /><br />
+
+                      (Annnd…we’re back!)<br /><br />
+
+                      So, what’s the really real? I’m a storyteller. Always have been. I grew up on (mostly bad) D&D, horror, mystery, history, and fantasy books, AND (of course) music. I also have a massive love for culture, language, and how they intersect across borders—both on a map and between people. Oh, and I grew up with that whole Blind Guy thing. I am, as I understand it, kinda contractually obligated to crack blind jokes whenever I spot them. (See? There’s one! Wait, no. There’s two! Go me!)<br /><br />
+
+                      I’m told I sang before I spoke, so music’s always been a driving force in my life. Eventually, in 2019, I wrote my first book: The Dawn of Unions, the novella and prequel that launched my dark military fantasy series, The Cycle of Bones.<br /><br />
+
+                      I also produce soundtracks for my books, blending my work as a fantasy author with my career as a singer-songwriter. The idea of combining my two worlds seemed sensible enough—but it really locked in when fans of my music read the novella, saw in-world song lyrics, and said: “Hey blinky! We know those songs are real. So, uh… album when? Streaming service when?”<br/>
+                      In other words: “Dance, monkey, dance!” Or, I guess, “Sing, monkey, sing!”<br />
+                      I know, I know—who could’ve seen that coming, right?<br /><br />
+
+                      Arm duly twisted (written with all snark and sarcasm), I started recording soundtracks and albums that bring those stories into the music.<br /><br />
+
+                      Anyroad, that’s the long and short of it. Stick around, read the books, stream the music, subscribe on YouTube, sign up for my newsletter, or come see me at a show or convention. I promise you’ll see me long before I see you.<br /><br />
+
+                      Thanks for all the Electricity!</p>
                   </div>
                   
               </div> 
