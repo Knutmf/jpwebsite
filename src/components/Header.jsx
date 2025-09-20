@@ -16,7 +16,7 @@ function Header() {
       {/* Logo Centered */}
       <div className="header-space">
         <Link to="/">
-          <img src={logo} className="logoheader" loading="lazy" alt="The Author" width="180" />
+          <img src={logo} className="logoheader" loading="lazy" alt="JP Corwyn logo" width="180" />
         </Link>
       </div>
 
@@ -29,7 +29,7 @@ function Header() {
           <li><Link to="/latest">Latest News</Link></li>
           <li><Link to="/bio">About</Link></li>
           <li><Link to="/buy">Read Now</Link></li>
-          <li><Link to="/merch">Merch</Link></li>
+          <li><a href="https://jp-corwyn.creator-spring.com/" target="_blank" rel="noopener noreferrer">Merch</a></li>
         </ul>
       </nav>
 
