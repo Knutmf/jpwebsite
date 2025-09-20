@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaTwitch } from 'react-icons/fa';
 function Footer() {
   return (
     <footer id="contact" className="footer">
-      <p>© 2025 JP Corwyn | Official page</p>
+      <p>©2025 JP Corwyn, LLC | Official website</p>
       <p>
         Connect: 
       </p>
@@ -18,7 +18,8 @@ function Footer() {
       
         <div className="Footer-contact">
           <a href="/bio#contact" className="footer-link">Contact</a>
-          <a href="/Publisher" className="footer-link">Publisher</a>
+          <a href="/Publisher" className="footer-link">Privacy Policy</a>
+          <a href="https://4horsemenpublications.com/" target="_blank" rel="noopener noreferrer" className="footer-link">4 Horsemen Publications</a>
         </div>
         
 
