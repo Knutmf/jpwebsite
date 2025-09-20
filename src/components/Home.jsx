@@ -33,7 +33,7 @@ function Home() {
       {/* Quote Section */}
       <section className="quote-section">
         <h1 className="quote-text">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+          Creating words and worlds through stories and songs
         </h1>
       </section>
 
@@ -46,19 +46,19 @@ function Home() {
         <Link to="/Eaters" className="release-card">
           <img src={Bookslidethree} alt="Eaters of Time book cover" />
           <h3>Eaters of Time</h3>
-          <p>
-            A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?
-          </p>
+          {/*<p>
+            Shadows lengthen, peace shatters, and Havoc’s Horn sounds across the land…
+          </p>*/}
         </Link>
         
 
         <Link to="/Music" className="release-card">
           <img src={albumcover1} alt="Cycle of Bones soundtrack album" />
           <h3>The Cycle of Bones Soundtrack Vol. 1</h3>
-          <p>
+          {/*<p>
             A cinematic score capturing the rise of the rebellion. Atmospheric
             and epic, this album sets the tone.
-          </p>
+          </p>*/}
         </Link>
       </div>
     </section>
@@ -76,27 +76,27 @@ function Home() {
           <Link to="/Buy" className="book-card">
             <img src={Bookslideone} alt="Dawn of Unions book cover" />
             <h3>Dawn of Unions</h3>
-            <p>
+            {/*<p>
               Kaith and his armsmen must fight a demonic army to save their besieged
               village and its cursed survivors. Can Kaith prevent darkness from
               claiming anyone left standing?
-            </p>
+            </p>*/}
           </Link>
 
           <Link to="/Drums" className="book-card">
             <img src={Bookslidetwo} alt="Drums of Unrest book cover" />
             <h3>Drums of Unrest</h3>
-            <p>
+            {/*<p>
               As Skolf faces an unearthly siege, the King of the Dead draws ever closer with his agents to tear Skolf asunder. Follow Kaith, Eobum and other heroes as they battle the inner phantoms that haunt them in this gritty dark military fantasy. 
-            </p>
+            </p>*/}
           </Link>
 
           <Link to="/Eaters" className="book-card">
             <img src={Bookslidethree} alt="Eaters of Time book cover" />
             <h3>Eaters of Time</h3>
-            <p>
+            {/*<p>
               A land now divided by war, where ancient sorcery and monstrous threats lurk ever closer. Sir Kaith and three other heroes rise to protect the world, but can they truly outwit the darkness and save Skolf?
-            </p>
+            </p>*/}
           </Link>
         </div>
       </section>
@@ -122,8 +122,7 @@ function Home() {
       <img src={albumcover2} alt="Album Two Cover" />
       <h3>Listening from the Outside</h3>
       <p>
-        Driving drums and tension-filled melodies underscore the battle cries and
-        turning tides of war.
+        An intimate journey of sound and story that speaks to anyone who's ever felt just outside the noise of the world.
       </p>
     </Link>
 
@@ -131,8 +130,7 @@ function Home() {
       <img src={albumcover3} alt="Album Three Cover" />
       <h3>In Plain Sight</h3>
       <p>
-        Ambient, haunting, and meditative. These tracks explore the mysteries and
-        memories echoing through time.
+        A powerful blend of soaring vocals and heartfelt lyrics that inspire self resilience and human connection.
       </p>
     </Link>
   </div>
@@ -164,11 +162,9 @@ function Home() {
     <h2>Support My Work</h2>
       <div className="support-content">
         <p>
-          If you enjoy my music, stories, or art — consider supporting my journey!
+          If you enjoy my music and stories — consider supporting my journey!
           Your contributions help me focus more time on creating and sharing my work.
         </p>
-
-        <p>This section could also include merch and other support methods like direct tips</p>
 
       <div className="support-buttons">
         <a href="https://www.patreon.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" className="patreon-btn"><FaPatreon style={{ marginRight: '8px' }} />
