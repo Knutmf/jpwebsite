@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+/*import { useEffect, useState } from "react";*/
 
 export default function LatestNewsComponent() {
-  const [latestVideo, setLatestVideo] = useState(null);
+/* const [latestVideo, setLatestVideo] = useState(null);
   const latestInstagramPostUrl = "https://www.instagram.com/p/CqXYZabc123/";
 
   const API_KEY = "YOUR_API_KEY"; // replace with your YouTube Data API key
@@ -24,7 +24,7 @@ export default function LatestNewsComponent() {
 
     fetchLatestVideo();
   }, []);
-
+*/
   return (
     <section className="latest-news-section">
       <h2 className="latest-news-heading">Latest News</h2>
@@ -32,40 +32,40 @@ export default function LatestNewsComponent() {
       <div className="latest-news-grid">
         {/* YouTube Video */}
         <div className="news-card">
-          <h3>Latest YouTube Video</h3>
-          {latestVideo ? (
-            <>
-              <div className="video-wrapper">
-                <iframe
-                  src={`https://www.youtube.com/embed/${latestVideo.id.videoId}`}
-                  title={latestVideo.snippet.title}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-              <h4>{latestVideo.snippet.title}</h4>
-              <p>{latestVideo.snippet.description}</p>
-            </>
-          ) : (
-            <p>Loading latest video...</p>
-          )}
+        <h3>Latest YouTube Video</h3>
+        <div className="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0RyA1-njlmk"
+            title="Latest YouTube Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
+      </div>
+
+
 
         {/* Instagram Post */}
         <div className="news-card">
-          <h3>Latest Instagram Post</h3>
-          <blockquote
-            className="instagram-media"
-            data-instgrm-permalink={latestInstagramPostUrl}
-            data-instgrm-version="14"
-          >
-            <a href={latestInstagramPostUrl} target="_blank" rel="noreferrer noopener">
-              View on Instagram
-            </a>
-          </blockquote>
+        <h3>Latest Instagram Post</h3>
+        <div className="instagram-wrapper">
+          <iframe
+            src="https://www.instagram.com/reel/C29G_pzsDLd/embed"
+            width="400"
+            height="480"
+            frameBorder="0"
+            scrolling="no"
+            allowTransparency="true"
+            allow="encrypted-media"
+            title="Latest Instagram Post"
+          ></iframe>
         </div>
       </div>
+</div>
     </section>
   );
 }
