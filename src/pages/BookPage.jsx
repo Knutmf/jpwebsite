@@ -54,10 +54,10 @@ export default function BookPage({ bookId }) {
   <div className="book-cover-container">
     <img src={bookCover} alt="Dawn of Unions book cover" className="book-cover" />
     <div className="book-links">
-      <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
-      <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
-      <a href="https://open.spotify.com/dummy-link" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
-      <a href="https://goodreads.com/yourprofile" target="_blank" rel="noopener noreferrer">
+      <a href="https://4horsemenpublications.com/product/the-dawn-of-unions-the-cycle-of-bones-0/" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
+      <a href="https://www.amazon.com/Dawn-Unions-Cycle-Bones-ebook/dp/B0CR64J7FB?ref_=ast_author_dp" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
+      <a href="https://open.spotify.com/album/6QBCPuRAzMVtto7mIo2KwA?si=eL94ydLTRea15nef4fypkg" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
+      <a href="https://www.goodreads.com/book/show/48891396-the-dawn-of-unions" target="_blank" rel="noopener noreferrer">
         View my Goodreads reviews
       </a>
     </div>

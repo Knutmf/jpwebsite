@@ -44,8 +44,7 @@ export default function EatersBookPage() {
             />
             <meta property="og:image" content="../assets/images/bookslide3.png" />
       </Helmet>
-      <Header />
-
+      
       <Header />
 
       <main className="book-page">
@@ -54,10 +53,10 @@ export default function EatersBookPage() {
           <div className="book-cover-container">
             <img src={bookCover3} alt="Eaters of Time book cover" className="book-cover" />
             <div className="book-links">
-              <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
-              <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
-              <a href="https://open.spotify.com/dummy-link" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
-              <a href="https://goodreads.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://4horsemenpublications.com/product/the-eaters-of-time-the-cycle-of-bones-2/" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
+              <a href="https://www.amazon.com/Eaters-Time-Cycle-Bones-Book-ebook/dp/B0D1GLFVHC?ref_=ast_author_dp" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
+              <a href="https://open.spotify.com/album/6QBCPuRAzMVtto7mIo2KwA?si=W1CunDOrR1CDoBkBf1oi5w" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
+              <a href="https://www.goodreads.com/book/show/62893233-the-eaters-of-time" target="_blank" rel="noopener noreferrer">
                 View my Goodreads reviews
               </a>
             </div>

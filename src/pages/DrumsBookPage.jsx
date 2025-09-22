@@ -52,10 +52,10 @@ export default function DrumsBookPage() {
           <div className="book-cover-container">
             <img src={bookCover2} alt="Drums of Unrest book cover" className="book-cover" />
             <div className="book-links">
-              <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
-              <a href="https://www.amazon.com/dummy-link" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
-              <a href="https://open.spotify.com/dummy-link" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
-              <a href="https://goodreads.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <a href="https://4horsemenpublications.com/product/the-drums-of-unrest-the-cycle-of-bones-1/" target="_blank" rel="noopener noreferrer" className="buy-link primary-buy">📘 Buy it now!</a>
+              <a href="https://www.amazon.com/Drums-Unrest-Cycle-Bones-Book-ebook/dp/B0D124WN8Q?ref_=ast_author_dp" target="_blank" rel="noopener noreferrer" className="buy-link secondary-buy">📘 Buy on Amazon</a>
+              <a href="https://open.spotify.com/album/6QBCPuRAzMVtto7mIo2KwA?si=W1CunDOrR1CDoBkBf1oi5w" target="_blank" rel="noopener noreferrer" className="spotify-link">🎧 Listen on Spotify</a>
+              <a href="https://www.goodreads.com/book/show/55936065-the-drums-of-unrest" target="_blank" rel="noopener noreferrer">
                 View my Goodreads reviews
               </a>
             </div>
