@@ -24,7 +24,7 @@ export default function Support() {
             Support on Patreon
           </a>
 
-          <a
+        {/*}  <a
             href="https://ko-fi.com/YOUR_USERNAME"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,8 +32,8 @@ export default function Support() {
           >
             <SiKofi style={{ marginRight: '8px' }} />
             Tip via Ko-fi
-          </a>
-        </div>
+          </a>*/}
+        </div> 
 
         <div className="full-line"></div>
 
