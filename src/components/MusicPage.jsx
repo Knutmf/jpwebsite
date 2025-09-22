@@ -51,7 +51,7 @@ export default function MusicPage() {
             {/* Album 3 */}
             <div className="album-card">
               <img src={album3} alt="Album 3" className="album-cover" id="In-Plain-Sight" />
-              <h3>In Plain View</h3>
+              <h3>In Plain Sight</h3>
               <div className="album-links">
                 <a href="https://open.spotify.com/album/54PJ0FW2RLD58bvZxAubZl?si=L9FEosD1STOSpMG6nUAanQ" target="_blank" rel="noopener noreferrer" className="spotify-link">Spotify</a>
                 <a href="https://music.apple.com/us/album/in-plain-sight/171464019?l=ko" target="_blank" rel="noopener noreferrer" className="apple-music-link">Apple Music</a>
