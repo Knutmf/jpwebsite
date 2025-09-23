@@ -423,7 +423,7 @@ h3 {
 /*Newsletter section on the home page*/
 
 .newsletter-section {
-  background: url('./assets/images/JP\ Logo\ Banner.png') center center / cover no-repeat;
+  background: url('/images/JP_Logo_Banner.png') center center / cover no-repeat;
   padding: 6rem 2rem;
   position: relative;
   text-align: center;

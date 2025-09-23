@@ -43,7 +43,9 @@ function Header() {
 
       <div className="headerCTA">
         <div className="cta-button">
-          <a href="/support" className="join-cadre-btn">⚔️ Join Corwyn's Cadre</a>
+          <Link to="/support" className="join-cadre-btn">
+            ⚔️ Join Corwyn's Cadre
+          </Link>
         </div>
       </div>
     </header>

@@ -167,7 +167,7 @@ function Home() {
         </p>
 
       <div className="support-buttons">
-        <a href="https://www.patreon.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer" className="patreon-btn"><FaPatreon style={{ marginRight: '8px' }} />
+        <a href="https://www.patreon.com/JPCorwyn" target="_blank" rel="noopener noreferrer" className="patreon-btn"><FaPatreon style={{ marginRight: '8px' }} />
           Support on Patreon
         </a>
       </div>

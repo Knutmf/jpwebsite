@@ -1,4 +1,4 @@
-import { Helmet } from '@vuer-ai/react-helmet-async';
+import { Helmet } from "@vuer-ai/react-helmet-async";
 import bookCover from '../assets/images/bookslide1.png'; 
 import bookCover2 from '../assets/images/bookslide2.png';
 import bookCover3 from '../assets/images/bookslide3.png';
