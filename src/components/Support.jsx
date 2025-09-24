@@ -1,5 +1,5 @@
 import { FaPatreon, FaDiscord } from 'react-icons/fa';
-import { SiTeespring, SiSpotify } from 'react-icons/si';
+import { SiKofi, SiTeespring, SiSpotify } from 'react-icons/si';
 import '../styles.css';
 
 export default function Support() {
@@ -24,15 +24,15 @@ export default function Support() {
             Support on Patreon
           </a>
 
-        {/*}  <a
-            href="https://ko-fi.com/YOUR_USERNAME"
+        <a
+            href="https://ko-fi.com/jpcorwyn"
             target="_blank"
             rel="noopener noreferrer"
             className="kofi-btn"
           >
             <SiKofi style={{ marginRight: '8px' }} />
             Tip via Ko-fi
-          </a>*/}
+          </a>
         </div> 
 
         <div className="full-line"></div>
