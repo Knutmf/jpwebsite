@@ -7,6 +7,7 @@ import albumcover1 from '../assets/images/albumcover1.png';
 import albumcover2 from '../assets/images/albumcover2.jpg';
 import albumcover3 from '../assets/images/albumcover3.png';
 import { FaPatreon } from 'react-icons/fa';
+import { SiKofi } from 'react-icons/si';
 
 
 function Home() {
@@ -170,6 +171,16 @@ function Home() {
         <a href="https://www.patreon.com/JPCorwyn" target="_blank" rel="noopener noreferrer" className="patreon-btn"><FaPatreon style={{ marginRight: '8px' }} />
           Support on Patreon
         </a>
+
+         <a
+                    href="https://ko-fi.com/jpcorwyn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="kofi-btn"
+                  >
+                    <SiKofi style={{ marginRight: '8px' }} />
+                    Tip via Ko-fi
+          </a>
       </div>
     </div>
   </section>
