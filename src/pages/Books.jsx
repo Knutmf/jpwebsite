@@ -11,7 +11,7 @@ export default function Books() {
   return (
     <>
       <Helmet>
-          <title>Books | JP Corwyn</title>
+          <title>JP Corwyn | Books</title>
           <meta
             name="description"
             content="Explore JP Corwyn's dark fantasy novels and novellas, including the Cycle of Bones series."
