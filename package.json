@@ -19,9 +19,9 @@
   "scripts": {
     "dev": "vite",
     "build:client": "vite build",
-    "build:server": "vite build --ssr src/entry-server.jsx",
+    "build:server": "vite build --ssr src/entry-server.jsx --outDir api/dist",
     "build": "npm run build:client && npm run build:server",
-    "vercel-build": "npm run build" 
+    "vercel-build": "npm run build"
   },
   "browserslist": {
     "production": [

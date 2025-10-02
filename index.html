@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
-    <!-- SEO Optimization -->
+    <!-- Original SEO / OG / Twitter meta tags -->
     <title>JP Corwyn | Blind Indie Rock & Blind Indie Prose</title>
     <meta
       name="description"
@@ -31,6 +31,9 @@
     <meta name="twitter:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
     <meta name="twitter:image" content="/src/assets/images/jpclogo.jpeg" />
 
+    <!-- SSR dynamic meta placeholder -->
+    <!--head-tags-->
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CH24DS5WYB"></script>
     <script>
@@ -43,15 +46,12 @@
     <!-- Icons & Manifest -->
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
-
-    
-    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this site.</noscript>
-    <div id="root"></div>
+    <div id="root"><!--ssr-outlet--></div>
 
-    <!-- Dev or production client entry point -->
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- SSR will inject client scripts here -->
+    <!--scripts-->
   </body>
 </html>

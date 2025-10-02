@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "functions": {
+    "api/ssr.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "routes": [
     { "src": "/(.*)", "dest": "/api/ssr.js" }
   ]

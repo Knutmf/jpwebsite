@@ -7,11 +7,11 @@ import DrumsBookPage from "./pages/DrumsBookPage.jsx";
 import EatersBookPage from "./pages/EatersBookPage.jsx";
 import Music from "./pages/Music.jsx";
 import Publisher from "./pages/Publisher.jsx";
-import LatestNews from "./pages/Latestnews.jsx"; 
+import LatestNews from "./pages/Latestnews.jsx"; // keep as-is
 import Merch from "./pages/Merch.jsx";
 import Support from "./pages/Support.jsx";
 import "./styles.css";
-import ScrollToHash from "./components/ScrollToHash.js"; 
+import ScrollToHash from "./components/ScrollToHash.js";
 
 export default function App() {
   return (

@@ -1,11 +1,11 @@
 import { renderToString } from "react-dom/server";
 import { HelmetProvider } from "@vuer-ai/react-helmet-async";
-import { StaticRouter } from "react-router-dom/server"; // server
-
+import { StaticRouter } from "react-router-dom/server";
 import App from "./App.jsx";
 
 export async function render(url) {
   const helmetContext = {};
+
   const appHtml = renderToString(
     <HelmetProvider context={helmetContext}>
       <StaticRouter location={url}>

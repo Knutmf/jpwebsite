@@ -1,27 +1,22 @@
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 export default async function handler(req, res) {
   try {
     const url = req.url;
 
-    // Read the client index.html
-    const templatePath = path.resolve(__dirname, "../dist/client/index.html");
-    const template = fs.readFileSync(templatePath, "utf-8");
+    // Read client index.html and manifest
+    const templatePath = path.resolve(process.cwd(), "dist/client/index.html");
+    const manifestPath = path.resolve(process.cwd(), "dist/client/manifest.json");
 
-    // Read the Vite manifest for correct asset paths
-    const manifestPath = path.resolve(__dirname, "../dist/client/manifest.json");
+    const template = fs.readFileSync(templatePath, "utf-8");
     const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
 
-    // Import the SSR server bundle
-    const { render } = await import("../dist/server/entry-server.js");
+    // Import SSR server bundle inside api/dist
+    const { render } = await import("./dist/entry-server.js");
     const { appHtml, tags } = await render(url);
 
-    // Determine client entry script from manifest
+    // Determine client entry script
     const entryKey =
       Object.keys(manifest).find((k) => k.endsWith("entry-client.jsx")) ||
       Object.keys(manifest).find(
@@ -41,13 +36,9 @@ export default async function handler(req, res) {
       }
     }
 
-    // Inject SSR content and meta tags into template
     const html = template
       .replace("<!--ssr-outlet-->", appHtml)
-      .replace(
-        "<!--head-tags-->",
-        `${tags.title}${tags.meta}${tags.link}${tags.style}`
-      )
+      .replace("<!--head-tags-->", `${tags.title}${tags.meta}${tags.link}${tags.style}`)
       .replace("<!--scripts-->", `${tags.script}${scripts}`);
 
     res.setHeader("Content-Type", "text/html");
