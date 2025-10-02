@@ -1,17 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Bio from "./pages/Bio";
-import Books from "./pages/Books";
-import BuyNow from "./pages/BookPage";
-import DrumsBookPage from "./pages/DrumsBookPage";
-import EatersBookPage from "./pages/EatersBookPage";
-import Music from "./pages/Music";
-import Publisher from "./pages/Publisher";
-import LatestNews from "./pages/Latestnews";
-import Merch from "./pages/Merch";
-import Support from "./pages/Support";
+import Home from "./pages/Home.jsx";
+import Bio from "./pages/Bio.jsx";
+import Books from "./pages/Books.jsx";
+import BuyNow from "./pages/BookPage.jsx";
+import DrumsBookPage from "./pages/DrumsBookPage.jsx";
+import EatersBookPage from "./pages/EatersBookPage.jsx";
+import Music from "./pages/Music.jsx";
+import Publisher from "./pages/Publisher.jsx";
+import LatestNews from "./pages/LatestNews.jsx"; 
+import Merch from "./pages/Merch.jsx";
+import Support from "./pages/Support.jsx";
 import "./styles.css";
-import ScrollToHash from "./components/ScrollToHash";
+import ScrollToHash from "./components/ScrollToHash.js"; 
 
 export default function App() {
   return (
@@ -21,14 +21,14 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/bio" element={<Bio />} />
         <Route path="/books" element={<Books />} />
-        <Route path="/Buy" element={<BuyNow />} />
-        <Route path="/Drums" element={<DrumsBookPage />} />
-        <Route path="/Eaters" element={<EatersBookPage />} />
-        <Route path="/Music" element={<Music />} />
+        <Route path="/buy" element={<BuyNow />} />          
+        <Route path="/drums" element={<DrumsBookPage />} /> 
+        <Route path="/eaters" element={<EatersBookPage />} />
+        <Route path="/music" element={<Music />} />
         <Route path="/latest" element={<LatestNews />} />
         <Route path="/merch" element={<Merch />} />
-        <Route path="/Support" element={<Support />} />
-        <Route path="/Publisher" element={<Publisher />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/publisher" element={<Publisher />} />
       </Routes>
     </div>
   );

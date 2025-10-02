@@ -4,7 +4,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
-    manifest: true,
-    outDir: "dist"
+    outDir: "dist/client", 
+    manifest: true
+  },
+  ssr: {
+    noExternal: ["react-router-dom", "@vuer-ai/react-helmet-async"]
   }
 });

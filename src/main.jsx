@@ -1,14 +1,13 @@
-import { hydrateRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { HelmetProvider } from "@vuer-ai/react-helmet-async";
-import App from "./App.jsx"; 
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 
 const helmetContext = {};
 
-hydrateRoot(
-  document.getElementById("root"),
+createRoot(document.getElementById("root")).render(
   <HelmetProvider context={helmetContext}>
-    <BrowserRouter basename="/jp_new_website">
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </HelmetProvider>

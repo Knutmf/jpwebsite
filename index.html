@@ -5,10 +5,6 @@
     <link rel="icon" href="/faviconlogo.jpeg" />
 
     <!-- Preload critical CSS or JS for this page -->
-    
-    <!-- Prefetch resources for likely next pages -->
-    <link rel="prefetch" href="/src/components/MainContent.jsx">
-    <link rel="prefetch" href="/src/assets/images/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -35,9 +31,6 @@
     <meta name="twitter:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
     <meta name="twitter:image" content="/src/assets/images/jpclogo.jpeg" />
 
-    <!-- For mobile -->
-    <meta name="theme-color" content="#007BFF" />
-
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CH24DS5WYB"></script>
     <script>
@@ -51,14 +44,14 @@
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
 
-    <!-- SSR Injection Point -->
-    <!--head-tags-->
+    
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this site.</noscript>
-    <div id="root"><!--ssr-outlet--></div>
+    <div id="root"></div>
 
-    <!-- Scripts injected by SSR -->
-    <!--scripts-->
+    <!-- Dev or production client entry point -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

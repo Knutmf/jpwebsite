@@ -1,5 +1,3 @@
-import React from 'react';
-
 function ContactNewsletter() {
   return (
     <section className="contact-newsletter" id="contact">

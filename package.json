@@ -16,9 +16,10 @@
     "vite": "^7.1.7"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node server.js",
-    "build": "vite build && vite build --ssr src/entry-server.jsx",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "dev": "vite",
+    "build:client": "vite build",
+    "build:server": "vite build --ssr src/entry-server.jsx",
+    "build": "npm run build:client && npm run build:server"
   },
   "browserslist": {
     "production": [

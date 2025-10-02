@@ -11,15 +11,15 @@ export default function Books() {
   return (
     <>
       <Helmet>
-          <title>JP Corwyn | Books</title>
+          <title>Books | JP Corwyn</title>
           <meta
             name="description"
-            content="Enter The Cycle of Bones—JP Corwyn’s dark military fantasy-horror series with rich and immersive worldbuilding and unforgettable characters."
+            content="Explore JP Corwyn's dark fantasy novels and novellas, including the Cycle of Bones series."
           />
-          <meta property="og:title" content="The Cycle of Bones | Dark Military Fantasy-Horror by JP Corwyn" />
+          <meta property="og:title" content="Books by JP Corwyn" />
           <meta
             property="og:description"
-            content="JP Corwyn is the author of The Cycle of Bones — a dark military fantasy-horror book series with immersive worldbuilding and unforgettable characters. #BlindIndieProse"
+            content="Discover the Cycle of Bones series and other dark fantasy works by JP Corwyn."
           />
           <meta property="og:image" content="../assets/images/dawnimg.jpeg" />
         </Helmet>

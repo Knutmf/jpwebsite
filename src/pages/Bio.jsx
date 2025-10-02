@@ -50,22 +50,22 @@ export default function MainContent() {
             <title>JP Corwyn | About </title>
             <meta
               name="description"
-              content="Meet JP Corwyn—legally blind author, composer, and indie rock musician behind The Cycle of Bones, a dark military fantasy-horror with immersive worldbuilding."
+              content="About page.."
             />
             <meta name="robots" content="index, follow" />
             <link rel="canonical" href="https://jpcorwyn.com.com/current-page" />
             
           
-            <meta property="og:title" content="About JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
-            <meta property="og:description" content="Learn about JP Corwyn - a legally blind author, composer, and indie rock musician who blurs the line between sound and story in his dark fantasy series, The Cycle of Bones. #BlindIndieRock #BlindIndieProse" />
+            <meta property="og:title" content="JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
+            <meta property="og:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
             <meta property="og:image" content="https://jpcorwyn.com/src/assets/images/jpclogo.jpeg" />
             <meta property="og:url" content="https://jpcorwyn.com/page-url" />
             <meta property="og:type" content="website" />
 
            
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:title" content="About JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
-            <meta name="twitter:description" content="Learn about JP Corwyn - a legally blind author, composer, and indie rock musician who blurs the line between sound and story in his dark fantasy series, The Cycle of Bones. #BlindIndieRock #BlindIndieProse" />
+            <meta name="twitter:title" content="JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
+            <meta name="twitter:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
             <meta name="twitter:image" content="https://jpcorwyn.com/src/assets/images/jpclogo.jpeg" />
 
         </Helmet>

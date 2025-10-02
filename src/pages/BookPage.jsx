@@ -21,12 +21,12 @@ export default function BookPage({ bookId }) {
   return (
     <>
        <Helmet>
-        <title>JP Corwyn | Dawn of Unions</title>
+        <title>Dawn of Unions | JP Corwyn</title>
         
         {/* Meta description */}
         <meta
           name="description"
-          content="Dawn of Unions is a dark fantasy novella and prequel to the Cycle of Bones series by JP Corwyn. Survival, sacrifice, and brutal choices in a cursed village filled with demonic horrors and realistic battles."
+          content="Dawn of Unions is a dark fantasy prequel novella in the Cycle of Bones series by JP Corwyn. Survival, sacrifice, and brutal choices in a cursed village filled with demonic horrors and realistic battles."
         />
 
         {/* Meta keywords */}

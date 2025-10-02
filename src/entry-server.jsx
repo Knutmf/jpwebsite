@@ -1,5 +1,3 @@
-// src/entry-server.jsx
-import React from "react";
 import { renderToString } from "react-dom/server";
 import { HelmetProvider } from "@vuer-ai/react-helmet-async";
 import { StaticRouter } from "react-router-dom/server"; // server
