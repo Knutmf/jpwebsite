@@ -20,7 +20,8 @@
     "dev": "vite",
     "build:client": "vite build",
     "build:server": "vite build --ssr src/entry-server.jsx",
-    "build": "npm run build:client && npm run build:server"
+    "build": "npm run build:client && npm run build:server",
+    "vercel-build": "npm run build" 
   },
   "browserslist": {
     "production": [
