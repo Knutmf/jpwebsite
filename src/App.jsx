@@ -7,7 +7,7 @@ import DrumsBookPage from "./pages/DrumsBookPage.jsx";
 import EatersBookPage from "./pages/EatersBookPage.jsx";
 import Music from "./pages/Music.jsx";
 import Publisher from "./pages/Publisher.jsx";
-import LatestNews from "./pages/LatestNews.jsx"; 
+import LatestNews from "./pages/Latestnews.jsx"; 
 import Merch from "./pages/Merch.jsx";
 import Support from "./pages/Support.jsx";
 import "./styles.css";
