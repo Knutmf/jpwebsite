@@ -1,6 +1,6 @@
 import { FaPatreon, FaDiscord } from 'react-icons/fa';
 import { SiKofi, SiTeespring, SiSpotify } from 'react-icons/si';
-import '../styles.css';
+
 
 export default function Support() {
   return (

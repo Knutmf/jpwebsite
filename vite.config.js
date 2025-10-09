@@ -1,14 +1,15 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path";
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: "/", 
+  base: mode === "development" ? "/" : "/",
+  publicDir: path.resolve(__dirname, "public"),
   build: {
-    outDir: "dist/client", 
-    manifest: true
+    outDir: "dist",
+    target: "esnext",
+    manifest: true,
+    
   },
-  ssr: {
-    noExternal: ["react-router-dom", "@vuer-ai/react-helmet-async"]
-  }
-});
+}));

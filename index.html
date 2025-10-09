@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/faviconlogo.jpeg" />
-
-    <!-- Preload critical CSS or JS for this page -->
+    <link rel="icon" href="/assets/faviconlogo.jpeg" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
-    <!-- Original SEO / OG / Twitter meta tags -->
+    <!-- SEO / OG / Twitter meta tags -->
     <title>JP Corwyn | Blind Indie Rock & Blind Indie Prose</title>
     <meta
       name="description"
@@ -21,7 +19,7 @@
     <!-- Open Graph -->
     <meta property="og:title" content="JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
     <meta property="og:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
-    <meta property="og:image" content="/src/assets/images/jpclogo.jpeg" />
+    <meta property="og:image" content="/assets/jpclogo.jpeg" />
     <meta property="og:url" content="https://jpcorwyn.com/page-url" />
     <meta property="og:type" content="website" />
 
@@ -29,10 +27,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="JP Corwyn | Blind Indie Rock & Blind Indie Prose" />
     <meta name="twitter:description" content="Legally blind author and indie rock musician JP Corwyn dares you to enter The Cycle of Bones, a dark military fantasy horror with immersive worldbuilding. #BlindIndieRock #BlindIndieProse" />
-    <meta name="twitter:image" content="/src/assets/images/jpclogo.jpeg" />
-
-    <!-- SSR dynamic meta placeholder -->
-    <!--head-tags-->
+    <meta name="twitter:image" content="/assets/jpclogo.jpeg" />
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CH24DS5WYB"></script>
@@ -44,14 +39,16 @@
     </script>
 
     <!-- Icons & Manifest -->
-    <link rel="apple-touch-icon" href="/logo192.png" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/logo192.png" />
+    <link rel="manifest" href="/assets/manifest.json" />
+
+    <!-- Vite will inject the hashed CSS & JS automatically during build -->
+
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- No manual references needed -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this site.</noscript>
-    <div id="root"><!--ssr-outlet--></div>
-
-    <!-- SSR will inject client scripts here -->
-    <!--scripts-->
+    <div id="root"></div>
   </body>
 </html>

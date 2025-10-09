@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';  
 import Support from '../components/Support';
 import BackToTopButton from '../components/BackToTopButton';
-import { Helmet } from '@vuer-ai/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 export default function SupportMe() {
   return (

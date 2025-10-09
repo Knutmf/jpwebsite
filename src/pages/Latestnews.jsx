@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';  
 import LatestNewsComponent from '../components/LatestNewsComponent';
 import BackToTopButton from '../components/BackToTopButton';
-import { Helmet } from '@vuer-ai/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 
 export default function LatestNews() {

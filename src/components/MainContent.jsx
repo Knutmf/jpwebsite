@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import '../styles.css';
 import { FaPatreon } from 'react-icons/fa';
 import img1 from '../assets/images/img1.jpg';
 import img2 from '../assets/images/img2.jpeg';

@@ -1,7 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
-import { HelmetProvider } from "@vuer-ai/react-helmet-async";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import App from "./App.jsx";
+import "./styles.css";
 
 const helmetContext = {};
 

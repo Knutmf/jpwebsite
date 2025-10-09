@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import Header from '../components/Header';  
 import Footer from '../components/Footer';  
-import '../styles.css';
 import img1 from '../assets/images/img1.jpg';
 import BackToTopButton from '../components/BackToTopButton';
-import { Helmet } from '@vuer-ai/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 export default function MainContent() {
     // Refs for each section

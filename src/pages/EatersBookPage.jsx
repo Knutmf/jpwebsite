@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import Header from '../components/Header';  
 import Footer from '../components/Footer'; 
 import BackToTopButton from '../components/BackToTopButton';
-import { Helmet } from '@vuer-ai/react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 export default function EatersBookPage() {
   const location = useLocation();
